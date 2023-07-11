@@ -7,10 +7,10 @@ class StatsManager extends Monster{
 		super(exp, lvl, monster, type1, type2);
 	}
 
-	private int attack = 0;
-	private int defense = 0;
-	private int specialAttack = 0;
-	private int specialDefense = 0;
+    private int attack = 0;
+    private int defense = 0;
+    private int specialAttack = 0;
+    private int specialDefense = 0;
     private int speed = 0;
     private int hp = 0;
     private int sustenance = 0;
@@ -44,9 +44,7 @@ class StatsManager extends Monster{
     		hp += hpIncrease;
     		sustenance += sustenanceIncrease;
     	}
-    	setLevelUp(false);
-
-    		
+    	setLevelUp(false);		
     }
     
     public void setFriendship(int friend) {
